@@ -1,0 +1,73 @@
+:root {
+  color-scheme: dark;
+  font-family: Inter, Arial, sans-serif;
+  background: #050507;
+  color: #f4f4f7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background:
+    radial-gradient(circle at top right, rgba(85, 45, 130, 0.22), transparent 34rem),
+    #050507;
+  line-height: 1.65;
+}
+
+main {
+  width: min(800px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 48px 0 72px;
+}
+
+h1,
+h2 {
+  line-height: 1.25;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2rem, 6vw, 3.5rem);
+}
+
+h2 {
+  margin-top: 2rem;
+  color: #d8d8ff;
+}
+
+a {
+  color: #aaaaff;
+}
+
+.brand {
+  color: #b9b9c2;
+  letter-spacing: 0.04em;
+}
+
+.updated {
+  color: #b9b9c2;
+}
+
+.card {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border: 1px solid #33333b;
+  border-radius: 18px;
+  background: rgba(18, 18, 24, 0.86);
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem 1.3rem;
+  margin-top: 2.5rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid #33333b;
+}
+
+nav a {
+  font-weight: 600;
+}
