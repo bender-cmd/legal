@@ -21,6 +21,8 @@ Published paths:
 
 - `/donation/payment/`
 
-The donation page currently shows a coming-soon message. Replace that message
-with the verified live Paystack Payment Page link when it becomes available.
+The donation page links to the owner's Paystack hosted checkout:
+`https://paystack.shop/pay/slal2u9ww3`.
+The mobile app links to `https://techinvasion.co.za/donation/payment/`, so the
+checkout destination can be updated here without an app release.
 Never include Paystack secret keys in this static site.
