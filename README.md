@@ -1,6 +1,6 @@
-# Safe2gether legal site
+# TechInvasion and Safe2gether site
 
-Static legal pages for **Safe2gether — Connected. Protected. Together.**
+TechInvasion homepage, donation page, and static legal pages for **Safe2gether — Connected. Protected. Together.**
 
 The repository is configured for GitHub Pages with the custom domain
 `techinvasion.co.za`.
@@ -18,3 +18,9 @@ Published paths:
 - `/privacy/`
 - `/terms/`
 - `/data-deletion/`
+
+- `/donation/payment/`
+
+The donation page currently shows a coming-soon message. Replace that message
+with the verified live Paystack Payment Page link when it becomes available.
+Never include Paystack secret keys in this static site.
