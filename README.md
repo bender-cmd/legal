@@ -21,8 +21,9 @@ Published paths:
 
 - `/donation/payment/`
 
-The donation page links to the owner's Paystack hosted checkout:
-`https://paystack.shop/pay/slal2u9ww3`.
-The mobile app links to `https://techinvasion.co.za/donation/payment/`, so the
-checkout destination can be updated here without an app release.
+The donation page shows a coming-soon message until a live checkout is ready.
+The supplied Paystack page `https://paystack.shop/pay/slal2u9ww3` displays a
+Test Mode warning and must not be used to collect public contributions.
+Once a live payment page is supplied, link it from `/donation/payment/` and
+activate the mobile app donation button using that stable website URL.
 Never include Paystack secret keys in this static site.
